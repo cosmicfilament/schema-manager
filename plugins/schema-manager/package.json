@@ -1,0 +1,28 @@
+{
+	"name": "strapi-plugin-schema-manager",
+	"version": "0.0.1",
+	"description": "Allows you to import and export your schema into a blank strapi implementation.",
+	"strapi": {
+		"name": "schema-manager",
+		"icon": "plug",
+		"description": "Allows you to import and export your schema into a blank strapi implementation"
+	},
+	"dependencies": {},
+	"author": {
+		"name": "John P. Butler",
+		"email": "john@thecosmicfilament.com",
+		"url": "http://www.thecosmicfilament.com"
+	},
+	"maintainers": [
+		{
+			"name": "John P. Butler",
+			"email": "john@thecosmicfilament.com",
+			"url": "http://www.thecosmicfilament.com"
+		}
+	],
+	"engines": {
+		"node": ">=10.0.0",
+		"npm": ">=6.0.0"
+	},
+	"license": "MIT"
+}
