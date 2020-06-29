@@ -1,7 +1,5 @@
-const pluginPkg = require('../../package.json');
-const pluginId = pluginPkg.name.replace(
-  /^strapi-plugin-/i,
-  ''
-);
+import pluginPkg from '../../package.json';
 
-module.exports = pluginId;
+const pluginId = pluginPkg.name.replace(/^strapi-plugin-/i, '');
+console.log('pluginId: ', pluginId);
+export default pluginId;

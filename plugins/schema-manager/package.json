@@ -1,11 +1,11 @@
 {
 	"name": "strapi-plugin-schema-manager",
 	"version": "0.0.1",
-	"description": "Allows you to import and export your schema into a blank strapi implementation.",
+	"description": "Allows you to import and export your schema into an empty strapi implementation.",
 	"strapi": {
-		"name": "schema-manager",
+		"name": "Schema Manager",
 		"icon": "plug",
-		"description": "Allows you to import and export your schema into a blank strapi implementation"
+		"description": ""
 	},
 	"dependencies": {},
 	"author": {
