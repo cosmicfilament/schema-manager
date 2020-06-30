@@ -7,7 +7,17 @@
 		"icon": "plug",
 		"description": ""
 	},
-	"dependencies": {},
+	"dependencies": {
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-intl": "^4.5.0",
+		"react-router": "^5.0.0",
+		"react-router-dom": "^5.0.0",
+		"reactstrap": "8.4.1",
+		"strapi-helper-plugin": "3.0.4",
+		"strapi-plugin-upload": "3.0.4",
+		"strapi-utils": "3.0.4"
+	},
 	"author": {
 		"name": "John P. Butler",
 		"email": "john@thecosmicfilament.com",
