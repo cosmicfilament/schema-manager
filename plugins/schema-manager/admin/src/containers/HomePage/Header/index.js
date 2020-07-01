@@ -4,13 +4,13 @@ import { Import, Export } from '@styled-icons/boxicons-regular';
 import { useGlobalContext } from 'strapi-helper-plugin';
 import { getTrad } from '../../../utils';
 
-const Header = ({ onBtnClicked }) => {
+const Header = ({ handleBtnClicked }) => {
 	const { formatMessage } = useGlobalContext();
 
 	const importBtnLabel = formatMessage({ id: getTrad('header.button.import') });
 	const importBtnProps = {
 		label: importBtnLabel,
-		onClick: () => onBtnClicked('import'),
+		onClick: () => handleBtnClicked('import'),
 		color: 'primary',
 		type: 'button',
 		icon: <Import style={{ color: 'secondary', height: '16px' }} />
@@ -19,7 +19,7 @@ const Header = ({ onBtnClicked }) => {
 	const exportBtnLabel = formatMessage({ id: getTrad('header.button.export') });
 	const exportBtnProps = {
 		label: exportBtnLabel,
-		onClick: () => onBtnClicked('export'),
+		onClick: () => handleBtnClicked('export'),
 		color: 'secondary',
 		type: 'button',
 		icon: <Export style={{ color: 'primary', height: '16px' }} />
